@@ -8,7 +8,6 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
-    SharedPreferences.Editor preferenceEditor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
