@@ -2,6 +2,7 @@ package com.yong.customtracker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences("preference", MODE_PRIVATE);
         if(sharedPreferences.getBoolean("isFirst", true)){
-            startActivity(getApplicationContext(), WelcomeActivity.class));
+            startActivity(new Intent(getApplicationContext(), WelcomeActivity.class));
         }
     }
 }
