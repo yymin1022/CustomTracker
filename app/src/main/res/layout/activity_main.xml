@@ -18,15 +18,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_btn_add" />
+            android:src="@drawable/ic_btn_more" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_btn_more" />
+            android:src="@drawable/ic_btn_add" />
 
     </androidx.appcompat.widget.Toolbar>
 
