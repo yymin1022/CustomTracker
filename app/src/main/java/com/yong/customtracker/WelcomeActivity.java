@@ -28,5 +28,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 }
             }
         };
+
+        btnDone.setOnClickListener(onClickListener);
     }
 }
